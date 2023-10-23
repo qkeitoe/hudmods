@@ -193,15 +193,15 @@
 		
 		// if (value <= digit && digit > 1): // hide leading zero
 		// frame = frame_empty
-		LessOrEqual {
-			srcVar1 "$value" srcVar2 "$digit"
-			lessEqualVar "$frame_empty" greaterVar "$frame"
-			resultVar "$tmp"
-		}
-		LessOrEqual {
-			srcVar1 "$digit" srcVar2 "$1"
-			lessEqualVar "$frame" greaterVar "$tmp"
-			resultVar "$frame"
-		}
+		// LessOrEqual {
+		// 	srcVar1 "$value" srcVar2 "$digit"
+		// 	lessEqualVar "$frame_empty" greaterVar "$frame"
+		// 	resultVar "$tmp"
+		// }
+		// LessOrEqual {
+		// 	srcVar1 "$digit" srcVar2 "$1"
+		// 	lessEqualVar "$frame" greaterVar "$tmp"
+		// 	resultVar "$frame"
+		// }
 	}
 }

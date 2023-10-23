@@ -3,21 +3,21 @@
 		"controlName" "EditablePanel"
 		"visible" "1" // default visibility
 		"enabled" "1"
-		"wide" "40"
-		"tall" "10"
-		"xpos" "c-20"
-		"ypos" "c80"
+		"wide" "64"
+		"tall" "16"
+		"xpos" "cs-0.5"
+		"ypos" "c115"
 		
 		"d4_4k" {
 			"controlName" "CTFImagePanel"
-			"wide" "10"
-			"tall" "10"
+			"wide" "16"
+			"tall" "16"
 			"image" "replay/thumbnails/speedo/absolute/center/d4_4k"
 		}
 		"d3_4k" {
 			"controlName" "CTFImagePanel"
-			"wide" "10"
-			"tall" "10"
+			"wide" "16"
+			"tall" "16"
 			"image" "replay/thumbnails/speedo/absolute/center/d3_4k"
 			
 			"pin_to_sibling"		"d4_4k"
@@ -26,8 +26,8 @@
 		}
 		"d2_4k" {
 			"controlName" "CTFImagePanel"
-			"wide" "10"
-			"tall" "10"
+			"wide" "16"
+			"tall" "16"
 			"image" "replay/thumbnails/speedo/absolute/center/d2_4k"
 			
 			"pin_to_sibling"		"d3_4k"
@@ -36,8 +36,8 @@
 		}
 		"d1_4k" {
 			"controlName" "CTFImagePanel"
-			"wide" "10"
-			"tall" "10"
+			"wide" "16"
+			"tall" "16"
 			"image" "replay/thumbnails/speedo/absolute/center/d1_4k"
 			
 			"pin_to_sibling"		"d2_4k"
@@ -47,15 +47,16 @@
 
 		"d3_3k" {
 			"controlName" "CTFImagePanel"
-			"xpos" "5"
-			"wide" "10"
-			"tall" "10"
+			"xpos" "cs-1.5"
+			"wide" "16"
+			"tall" "16"
 			"image" "replay/thumbnails/speedo/absolute/center/d3_3k"
+			"proportionaltoparent" "1"
 		}
 		"d2_3k" {
 			"controlName" "CTFImagePanel"
-			"wide" "10"
-			"tall" "10"
+			"wide" "16"
+			"tall" "16"
 			"image" "replay/thumbnails/speedo/absolute/center/d2_3k"
 			
 			"pin_to_sibling"		"d3_3k"
@@ -64,8 +65,8 @@
 		}
 		"d1_3k" {
 			"controlName" "CTFImagePanel"
-			"wide" "10"
-			"tall" "10"
+			"wide" "16"
+			"tall" "16"
 			"image" "replay/thumbnails/speedo/absolute/center/d1_3k"
 			
 			"pin_to_sibling"		"d2_3k"
@@ -75,15 +76,16 @@
 
 		"d2_2k" {
 			"controlName" "CTFImagePanel"
-			"xpos" "10"
-			"wide" "10"
-			"tall" "10"
+			"xpos" "cs-1.0"
+			"wide" "16"
+			"tall" "16"
 			"image" "replay/thumbnails/speedo/absolute/center/d2_2k"
+			"proportionaltoparent" "1"
 		}
 		"d1_2k" {
 			"controlName" "CTFImagePanel"
-			"wide" "10"
-			"tall" "10"
+			"wide" "16"
+			"tall" "16"
 			"image" "replay/thumbnails/speedo/absolute/center/d1_2k"
 			
 			"pin_to_sibling"		"d2_2k"
@@ -93,10 +95,11 @@
 
 		"d1_1k" {
 			"controlName" "CTFImagePanel"
-			"xpos" "15"
-			"wide" "10"
-			"tall" "10"
+			"xpos" "cs-0.5"
+			"wide" "16"
+			"tall" "16"
 			"image" "replay/thumbnails/speedo/absolute/center/d1_1k"
+			"proportionaltoparent" "1"
 		}
 	} 
 }
